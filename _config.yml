@@ -1,0 +1,36 @@
+# ----------------------------------------
+# Site settings
+# ----------------------------------------
+title: My Math Site
+description: A site about math formulas and tutorials
+author: Leo
+
+# ----------------------------------------
+# GitHub Pages URL settings
+# ----------------------------------------
+url: "https://leo3391.github.io"  # Your GitHub Pages URL
+baseurl: "/math"                  # Because this is a project site
+
+# ----------------------------------------
+# Theme
+# ----------------------------------------
+theme: jekyll-theme-tactile
+
+# ----------------------------------------
+# Navigation links (header menu)
+# ----------------------------------------
+header_pages:
+  - index.md
+
+# ----------------------------------------
+# Footer
+# ----------------------------------------
+footer: "© 2025 Leo | Content licensed under CC0 1.0"
+
+# ----------------------------------------
+# Markdown and MathJax settings
+# ----------------------------------------
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  math_engine_opts: {}
