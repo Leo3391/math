@@ -1,6 +1,7 @@
 ---
 layout: page
 title: sin alpha + sin beta
+include: head
 ---
 
 # Trigonometry Formulas
